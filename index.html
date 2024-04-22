@@ -9,24 +9,32 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
-
 <body>
     <div class="main">
         <div class="content">
             <div class="heading">
-                <div class="Title">ATM</div>
-                <div class="subtitle"> PLEASE AUTHENTICATE</div>
+                <div class="title">ATM</div>
+                <div id="subtitle" class="subtitle">PLEASE AUTHENTICATE</div>
             </div>
-            <div class="pin-container">
-                <input class="input" placeholder="Enter PIN">
-                <button class="btn btn-primary enter-btn">ENTER</button>
-
-
+            <div id="pin-section" class="pin-container">
+                <input id="pin-input" class="input" type="text" placeholder="Enter PIN">
+                <button id="enter-button" class="btn btn-primary enter-btn">ENTER</button>
+            </div>
+            <div id="actions-section" class="actions-container hidden">
+                <div class="actions-row">
+                    <button id="balance-button" class="btn btn-primary action-btn">BALANCE</button>
+                    <button id="deposit-button" class="btn btn-primary action-btn">DEPOSIT</button>
+                </div>
+                <div class="actions-row">
+                    <button id="withdraw-button" class="btn btn-primary action-btn">WITHDRAW</button>
+                    <button id="cancel-button" class="btn btn-danger action-btn">CANCEL</button>
+                </div>
+            </div>
+            <div id="system-message" class="system-message info hidden">
+                Waiting for an operation
             </div>
         </div>
     </div>
-
 </body>
-
 
 </html>
