@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    font-family: "Roboto", sans-serif;
+}
+    
+.main{
+display: flex;
+justify-content: center;
+height: 100vh;
+width: 100vh;
+padding-top: 80px;
+}
+
+.content {
+display: flex;
+flex-direction: column;
+gap: 80px;
+align-items: center;
+}
+
+.heading{
+display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
+}
+
+.title{
+font-size: 50px;
+font-weight: 500px;
+letter-spacing: 0,2px;
+text-align: center;
+}
+
+.subtitle {
+font-size: 20px;
+font-weight: 500px;
+text-align: center;
+}
+
+.pin-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: flex-end;
+}
+
+.input {
+ 
+padding: 16px;
+ border-radius: 4px;
+ outline: none;
+ border: 1px solid #E9EEF2;
+}
+
+.btn{
+padding: 8px 0px;
+border: none;
+border-radius: 4px
+}
+
+ 
+.enter-btn{
+width: 100px;
+}
+
+.btn-primary{
+color: white;
+background-color: #FFAB2B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
