@@ -18,7 +18,7 @@ enterButton?.addEventListener('click', () => {
             alert('Incorrect PIN entered!');
         }
     } else {
-        // Handle the case where input is not an HTMLInputElement
+
         console.error('Input element is not found or is not an HTMLInputElement');
     }
 });
